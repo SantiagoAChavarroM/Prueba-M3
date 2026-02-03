@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "System Admin",
+      "email": "admin@crudtask.com",
+      "password": "Admin123!",
+      "role": "admin",
+      "createdAt": "2026-02-02T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Demo User",
+      "email": "user@crudtask.com",
+      "password": "User123!",
+      "role": "user",
+      "createdAt": "2026-02-02T00:00:00.000Z"
+    },
+    {
+      "name": "santiago",
+      "email": "santiago@crudtask.com",
+      "password": "User123!",
+      "role": "user",
+      "createdAt": "2026-02-02T14:48:00.254Z",
+      "id": "3"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Tarea User 1",
+      "category": "Other",
+      "priority": "Low",
+      "status": "pending",
+      "dueDate": "2025-02-02",
+      "description": "Tarea de prueba # 1",
+      "userId": "2",
+      "createdAt": "2026-02-02T15:50:59.722Z",
+      "updatedAt": "2026-02-02T15:51:42.331Z",
+      "id": "1"
+    },
+    {
+      "title": "Tarea User 2",
+      "category": "Other",
+      "priority": "Medium",
+      "status": "in_progress",
+      "dueDate": "2025-02-02",
+      "description": "Tarea de prueba # 2",
+      "userId": "2",
+      "createdAt": "2026-02-02T15:51:30.170Z",
+      "updatedAt": "2026-02-02T15:52:00.858Z",
+      "id": "2"
+    },
+    {
+      "title": "Tarea User 3",
+      "category": "Other",
+      "priority": "High",
+      "status": "completed",
+      "dueDate": "2025-02-02",
+      "description": "Tarea de prueba #3",
+      "userId": "2",
+      "createdAt": "2026-02-02T15:52:47.722Z",
+      "updatedAt": "2026-02-02T17:46:07.334Z",
+      "id": "3"
+    },
+    {
+      "title": "Tarea Santi 1",
+      "category": "Other",
+      "priority": "Low",
+      "status": "pending",
+      "dueDate": "2025-02-02",
+      "description": "Tarea de prueba #1",
+      "userId": "3",
+      "createdAt": "2026-02-02T15:53:57.434Z",
+      "updatedAt": "2026-02-02T15:53:57.434Z",
+      "id": "4"
+    },
+    {
+      "title": "Tarea Santi 2",
+      "category": "Other",
+      "priority": "Medium",
+      "status": "in_progress",
+      "dueDate": "2025-02-02",
+      "description": "Tarea de prueba #2",
+      "userId": "3",
+      "createdAt": "2026-02-02T15:54:25.794Z",
+      "updatedAt": "2026-02-02T15:54:25.794Z",
+      "id": "5"
+    },
+    {
+      "id": "8e8e",
+      "title": "sbhdg",
+      "category": "Mathematics",
+      "priority": "Low",
+      "status": "pending",
+      "dueDate": "2026-03-02",
+      "description": "dghndhgnh",
+      "userId": "2",
+      "createdAt": "2026-02-03T15:30:26.941Z",
+      "updatedAt": "2026-02-03T15:30:26.941Z"
+    }
+  ]
+}
